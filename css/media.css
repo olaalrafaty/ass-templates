@@ -1,0 +1,184 @@
+@media (max-width: 768px){
+	.na {
+		margin-left: 1em
+
+	}
+	.par{
+		font-size: 16px;
+		margin-top: 0px
+	}
+	.parg{
+		font-size: 12px;
+
+	}
+	.glass{
+		position: relative;
+		text-align: center;
+	}
+	.tex{
+		text-align: center;
+		margin-left: 1em;
+		margin-top: 1em
+	}
+	.sec4{
+		margin-left: 1em
+	}
+	.bt{
+		margin-left: 14em
+
+	}
+	.coll{
+		margin-left: 5em;
+	}
+	
+	.finalsec h2{
+		font-size: 35px
+	}
+
+	.finalsec h5{
+		font-size: 15px
+	}
+
+	.cont{
+		top:35%;
+		font-size: 25px;
+		width: 61%
+	}
+	.tt{
+		position: absolute;
+		padding-left: 10em
+	}
+	.ff{
+		position: absolute;
+		margin-left:15em;
+
+	}
+	.bt{
+		margin-left: 13em
+
+	}
+	
+}
+/*small screen*/
+@media (min-width: 769px) and (max-width: 991px){
+	.na {
+		margin-left: 1em
+
+	}
+	.par{
+		font-size: 20px;
+		margin-top: 0px
+	}
+
+	.paragrap{
+		font-size: 30px
+	}
+	.allcir{
+		margin-left: -3em
+	}
+	.glass{
+		position: relative;
+		margin-left: 2.4em
+	}
+	.tex{
+		text-align: center;
+		margin-left: 1em;
+		margin-top: 1em
+	}
+
+	
+	
+	.finalsec h2{
+		font-size: 35px
+	}
+
+	.finalsec h5{
+		font-size: 15px
+	}
+	.tt{
+		position: absolute;
+		padding-left: 10em
+	}
+	.ff{
+		position: absolute;
+		margin-left:12em;
+		margin-top: 1em;
+
+	}
+	.bt{
+		margin-left: 30em
+
+	}
+	
+
+}
+/*medium screen*/
+@media (min-width: 992px) and (max-width: 1199px){
+.na {
+		margin-left: 1em
+
+	}
+	.navbr{
+		margin-left: 2em
+	}
+	.glass{
+		position: relative;
+		text-align: center;
+		margin-left: 1em
+	}
+	.tex{
+		text-align: center;
+		margin-left: 10em;
+		margin-top: 1em
+	}
+
+	.cont {
+		top: 45%
+	}
+
+	.tt{
+		position: absolute;
+		padding-left: 10em
+	}
+	.ff{
+		margin-left:15em;
+		margin-top: -10em;
+
+
+	}
+	.prop{
+		margin-top: 2em;
+	}
+	.bt{
+		margin-left: 4em
+	}
+}
+
+/*large screen*/
+@media (min-width: 1200px){
+	.na{
+		margin-left: 5em
+	}
+	.tex{
+		position: absolute;
+		margin-left: 20em ;
+	    margin-top: 2em
+	}
+	.sec4{
+	margin-left:10em ;
+
+}
+	.navbr{
+		margin-left: 7em
+	}
+
+	.bt{
+		margin-left: 8.5em
+	}
+	.ff{
+		position: absolute;
+		margin-left:15em
+		
+	}
+
+}

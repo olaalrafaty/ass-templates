@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<script src= "https://unpkg.com/react@16/umd/react.production.min.js"></script>
+<script src= "https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+<script src= "https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+</head>
+<body>
+	<div id="root"></div>
+<script type="text/babel">
+		class LikeBtn extends React.Component {
+		constructor(props){
+		super(props);
+		this.state = {
+		clicks: 0
+	}
+	}
+	handelClicke(){
+		let clicks =this.state.clicks;
+		clicks++;
+		this.setState({
+		clicks: clicks
+	});
+	}
+	render(){
+		return(<button onClick={() => this.handelClicke()}> {this.props.lable}{this.state.clicks} </button>);
+	}
+	}
+
+
+
+
+ReactDOM.render(<LikeBtn lable ="Like" />, document.getElementById('root'));
+
+
+
+
+</script>
+</body>
+</html>
+
